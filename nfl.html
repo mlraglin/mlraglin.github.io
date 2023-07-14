@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Melina Raglin - Data Consulting</title>		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="assets/css/slider.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">MR</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="data_viz.html">Data Visualization</a></li>
+							<li><a href="data_sci.html">Data Science</a></li>
+							<li><a href="data_consult.html">Data Consulting</a></li>
+							<li><a href="dev.html">Software Development</a></li>
+							<li><a href="data_eng.html">Data Engineering</a></li>
+							<li><a href="design.html">Visual Design</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>NFL Play-by-Play Insights</h1>
+							</header>
+							<p><span class="image right"><img src="images/nfl_1.png"/> </span>In the fall of 2021, I took part in my first data hackathon at Ohio State's <a href="https://hack.osu.edu/dataio/2021/"> Data I/O,</a> along with my teammate, <a href="https://siddharthengineer.netlify.app/"> Siddharth Engineer,</a> my good friend and classmate of four years. Participants spent the full day coding solutions to a variety of problems as provided by event organizers, of which we selected the <b> NFL play-by-play data</b>. This dataset contained all of the NFL play data from 2009 to 2018, with each row of data being one play from one game. There were hundreds of attributes to consider, as one could imagine, including yardage, play type, score, penalties, and more. We were asked to pull some valuable insights about these plays to present to the judges panel at the end of the day.</p>
+							<p><span class="image left"><img src="images/nfl_2.png"/></span>After further discussion and planning, Siddharth and I decided that we wanted to create a model to predict the number of points a team scored during a game. Because there were so many variables to consider, we first had to do some exploratory data analysis, data cleaning, as well as variable transformation, based on our theoretical discussions. One variable that we decided to add was a <b> big play</b> indicator, being a play in which running yards were above 12, or passing yards were above 16. We thought that this variable, along with number of sacks, median passing and rushing yards, and total points could help us to make effective predictions. We also had to clean the data to separate plays by game and team, allowing for us to feed our new dataset into a linear regression model in R.</p>
+							<p>Although our predictions were not the most robust, and more modeling checks and considerations could have been made, this experience was my first time presenting data-driven insights from raw data, and working collaboratively to do so. I learned a lot through this experience, and continued to pursue similar projects and opportunities to develop my data problem-solving skills.</p>
+							<p> To see the GitHub repository for this project, <a href="https://github.com/SiddharthEngineer23/NFL-Advanced-Stats"> click here</a>.</p>
+						</div>
+					</div>
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Follow</h2>
+							<ul class="icons">
+								<li><a href="https://www.melinaraglin.com" class="icon style2 fa-user-circle"><span class="label">Website</span></a></li>
+								<li><a href="https://github.com/mlraglin" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/melina-raglin-987183198/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/slider.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Melina Raglin - Data Science</title>		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="assets/css/slider.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">Melina Raglin's Portfolio</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="data_viz.html">Data Visualization</a></li>
+							<li><a href="data_sci.html">Data Science</a></li>
+							<li><a href="data_consult.html">Data Consulting</a></li>
+							<li><a href="dev.html">Software Development</a></li>
+							<li><a href="data_eng.html">Data Engineering</a></li>
+							<li><a href="design.html">Visual Design</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Cross-Validation</h1>
+							</header>
+							<p><span class="image left"><img src="images/cv2.JPG"> </span> When creating effective predictive models, one of the most important parts of the process is cross-validation. There are many checks to make on the state of the data before implementing a model, including independnece, homoscedasticity, variable relationships, and residual normality; however, another important factor to consider working with more complex predictive models is that of <b> accurary</b>. Cross validation not only allows for you to test the predictive performance of your model, but it also ensures that you can test such performance across a variety of <b> model parameters and conditions</b>.</p>
+							<p><span class="image right"><img src="images/cv_3.png"> </span> These two visualizations were pulled from two different projects, both involving <b>testing the predictive performance of two different predictice models.</b> The first visualization shows a cross-validation chart for the most optimal number of neighbors, an key parameter for all clustering models, which was what I was using in this specific project. By writing a short function to produce clustering models for all possible values for number of neighbors, I can assess which model provides the highest accuracy rate to use for my final modeling. The second visualization shows a cross-validation chart for a principal components regression model with k=10 folds, for which I wrote a function that would produce the model's error rate for all possible number of principal components. Cross-validation is an important skill for data scientists who want to make purposeful and well-supported decisions about what parameters to use for their statistical models. <i> The first visualization was created in Python, and the second was created in R.</i></p>
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Follow</h2>
+							<ul class="icons">
+								<li><a href="https://www.melinaraglin.com" class="icon style2 fa-user-circle"><span class="label">Website</span></a></li>
+								<li><a href="https://github.com/mlraglin" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/melina-raglin-987183198/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/slider.js"></script>
+
+	</body>
+</html>

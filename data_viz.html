@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Melina Raglin - Data Visualization</title>		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">Melina Raglin's Portfolio</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="data_viz.html">Data Visualization</a></li>
+							<li><a href="data_sci.html">Data Science</a></li>
+							<li><a href="data_consult.html">Data Consulting</a></li>
+							<li><a href="dev.html">Software Development</a></li>
+							<li><a href="data_eng.html">Data Engineering</a></li>
+							<li><a href="design.html">Visual Design</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Data Visualization</h1>
+							<p>Effective data visualizations are a critical part of the data analytics process. Without strong and clear visualizations, the data story is incomplete. I know this well from both professional and academic experiences, including my training during courses for my data visualization specialization at Ohio State.</p>
+						<!-- Section 1 -->
+							<h2>Python Eye-Tracking Data Visualizations</h2>
+							<p><span class="image left"><img src="images/viz_gif_1.gif" ></span> I developed these two interactive visualizations in Python using the <b> <a href="https://www.geeksforgeeks.org/introduction-to-altair-in-python/"> Altair </a> </b> package. These were created for an assignment in one of my data visualization courses, focusing on creating meaningful and informative designs from a large research dataset recording the visual tracking of several participants. Those taking part in the study had varying levels of experience in the medical field, and were showed many pictures of potentially cancerous tumor scans. For all of these images, any specific point that a participant "fixated" on, or looked at for a significant period of time, was recorded, allowing for me to create this <b>interactive visualization displaying all fixation points for all participants.</b></p>
+							<p><span class="image right"><img src="images/viz_gif_2.gif"/></span> This was my first time working with visualization data, and I quickly realized that due to the nature of human visual processing, it was neccessary to provide some segmentation to this visualization to begin to discern any meaningful insights. By encoding the <b> length of a fixation </b> to the <b> size </b> of each individual fixation point, as well as add the ability for a user to <b> filter for a specific participant </b> in the legend, users can begin to observe some noticable differences and patterns in the duration, location, and frequency of each participant's fixations. The cursor tool tip also ensures that users can easily identify which images correspond to which fixation points, as well as know for exactly how long they were fixated upon. </p>
+						<!-- Section 2 -->
+							<h2>Obesity Rate Tableau Dashboard</h2>
+							<p><span class="image left"><img src="images/tableau_1.jpg" ></span> This dashboard was created for an integrated systems engineering visual sensemaking course, in which I developed and refined my ability to <b>create effective dashboards in Tableau</b>. For this specific project, we were given a dataset with obesity rate data by US county for the years of 2010 and 2012. My team created an indicator that compared the obesity rate by county to that of the US average, and encoded that information into the US map by color, as indicated in the legend to the right of the visualizations. We also added corresponding histograms for both years, as well as creating a panel in the dashboard to compare obesity rates from 2010 to that of 2012. We were told that there was a specific error within the data that could be uncovered through creating such visualizations, and upon further investigation, <i>we finally understood what the issue at hand was.</i></p>
+							<p><span class="image right"><img src="images/tableau_2.jpg"/></span> When comparing the US map and histogram visualizations from 2010 to that of 2012, we see significantly less granularity. The US map has no variety by county within each state, and the histogram has distinctly less bins. After going back into the dataset that we were working with, it was uncovered that the county attribute was omitted, resulting in discrepancies in the dashboard across the years. This was an important lesson, as the quality of data insights are utterly dependent on the quality of the data itself. Proper assessment of missing, uncleaned, or incorrect data is essential to producing visualizations and dashboards that do not mislead viewers. This project helped me to truly understand how essential it is to <b>ensure the integrity and the validity of the data at hand</b> as a data analyst.</p>
+							<!-- <p><span class="image left"><img src="images/eng_1.png" alt="" /></span> </p> GET BETTER PICS FOR THIS ??-->
+						</div>
+					</div>
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Follow</h2>
+							<ul class="icons">
+								<li><a href="https://www.melinaraglin.com" class="icon style2 fa-user-circle"><span class="label">Website</span></a></li>
+								<li><a href="https://github.com/mlraglin" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/melina-raglin-987183198/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
