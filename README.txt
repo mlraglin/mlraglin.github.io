@@ -1,3 +1,5 @@
+This is the repository for my personal portfolio, a website created through GitHub pages to showcase my skills and experiences. The following is the README.txt file for the HTML5 repository that I cloned to use as the framework for my website, called Phantom.
+
 Phantom by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
